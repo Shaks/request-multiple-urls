@@ -1,4 +1,3 @@
-# request-multiple-urls
 Request Multiple Urls
 =========
 
@@ -25,6 +24,15 @@ Run the the below command in the terminal
     requestMultipleUrls(urls).then(urlContent => {
         ...
     });
+
+## Tests
+
+  `npm test`
+
+## Error handling
+If response is OK, function returns object with properties: status, statusCode, url & body.
+
+If response status of url is not OK, it will reject the promise 
 
 ## Dependencies
 
