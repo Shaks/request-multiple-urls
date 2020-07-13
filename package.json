@@ -1,0 +1,26 @@
+{
+  "name": "request-multiple-urls",
+  "version": "1.0.0",
+  "description": "Fetches an array of URLs containing JSON data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha 'test/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaks/request-multiple-urls.git"
+  },
+  "author": "Shakir Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shaks/request-multiple-urls/issues"
+  },
+  "homepage": "https://github.com/Shaks/request-multiple-urls#readme",
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
