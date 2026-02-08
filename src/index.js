@@ -8,4 +8,4 @@ const urls = [
 
 requestMultipleUrls(urls)
   .then(urlContents => console.log(urlContents))
-  .catch(error => console.error(error))
+  .catch(err => console.error(err))
